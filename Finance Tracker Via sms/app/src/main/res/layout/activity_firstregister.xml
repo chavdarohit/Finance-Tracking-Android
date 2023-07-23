@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.finance.activity_registration">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="120dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/ivRegLogo"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="55dp"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
+
+
+            <ImageView
+                android:id="@+id/ivJoinUs"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/joinus_text" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawableStart="@drawable/icon_person"
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:hint="First Name"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/lname"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawableStart="@drawable/icon_person"
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:hint="Last Name"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawableStart="@drawable/icon_phone"
+                android:drawableLeft="@drawable/icon_password"
+                android:drawablePadding="10dp"
+                android:hint="Phone Number"
+                android:inputType="text|number"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="15sp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnsignin_gradient"
+                android:text="Next"
+                android:textColor="#FFFFFF">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <TextView
+                android:id="@+id/alrsignin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/signin_redirect"
+                android:textColor="@color/gray" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

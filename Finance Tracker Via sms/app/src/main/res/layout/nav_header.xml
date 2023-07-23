@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#0E66B9"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:layout_marginBottom="-70dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/user" />
+
+    <TextView
+
+        android:id="@+id/nav_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Chavda Rohit"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="20dp"
+
+        android:layout_height="20dp"
+        android:layout_above="@id/nav_phoneno"
+        android:layout_toRightOf="@id/nav_name"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:src="@drawable/verified"
+        />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_name"
+        android:layout_toRightOf="@id/imageView"/>
+
+    <TextView
+
+        android:id="@+id/nav_phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_name"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/imageView"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="7865203698"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <TextView
+
+        android:id="@+id/nav_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_phoneno"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Xyz@gmail.com"
+        android:textColor="#fff"
+        android:textSize="10sp" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="238dp"
+        android:layout_marginBottom="11dp">
+
+    </com.google.android.material.divider.MaterialDivider>
+</RelativeLayout>

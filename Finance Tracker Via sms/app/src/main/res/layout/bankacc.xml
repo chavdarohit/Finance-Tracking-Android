@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="325dp"
+        android:layout_height="74dp"
+        app:cardCornerRadius="8dp"
+        tools:ignore="ExtraText,MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Lightgray"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <ImageView
+                android:id="@+id/BankImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/sbibank" />
+
+            <TextView
+                android:id="@+id/accno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:text="1234" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="75dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="State Bank of India"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp">
+
+                <TextView
+                    android:id="@+id/balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Balance"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/rupee"
+                    android:layout_width="20dp"
+                    android:layout_height="17dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/balance"
+                    android:src="@drawable/ruppee" />
+
+                <TextView
+                    android:id="@+id/mbal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_toRightOf="@id/rupee"
+                    android:text="13757"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

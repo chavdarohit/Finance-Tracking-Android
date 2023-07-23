@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.finance.activity_pwreset">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            >
+
+
+
+            <ImageView
+                android:id="@+id/ivLogLogo"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginBottom="55dp"
+                android:layout_marginTop="18dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo"
+                android:contentDescription="@string/todo" />
+
+
+            <ImageView
+                android:id="@+id/ivPassReset"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/password_reset"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/tvPWinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/you_will_receive_an_email_with_instructions_on_resetting_password"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/emailreset"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_person"
+                android:hint="@string/emailReg"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnreset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btnsignin_gradient"
+                android:text="@string/reset_password"
+                android:textColor="#FFFFFF" />
+
+
+
+
+            <TextView
+                android:id="@+id/tvGoBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/go_back_to_sign_in"
+                android:textColor="@color/gray"  />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Finance Tracker</string>
+    <string name="usernameReg">Username</string>
+    <string name="emailReg">Email</string>
+    <string name="passwordReg">Password</string>
+    <string name="sign_upReg">Sign up</string>
+    <string name="sign_inLog">Sign in</string>
+    <string name="signin_redirect">Already a member? Sign in!</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="signup_redirect">Don\'t have an account? Register here!</string>
+    <string name="todo">TODO</string>
+    <string name="sign_in_text_on_registration_activity">Sign in text on registration activity</string>
+    <string name="social_site_button">Social site button</string>
+    <string name="you_will_receive_an_email_with_instructions_on_resetting_password">You will receive an email with instructions on resetting password.</string>
+    <string name="reset_password">Reset password</string>
+    <string name="go_back_to_sign_in">Go back to Sign In.</string>
+    <string name="home">Home</string>
+    <string name="graph">Graph</string>
+    <string name="reminder">Reminder</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="text">Light Mode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_rateus">activity_rateus</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="delete_confirmation">Confirmation</string>
+    <string name="sureToDelete">Are you sure you want to delete the task</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirmation">Completed the task!..</string>
+    <string name="sureToMarkAsComplete">Are you sure you want to mark this task as completed.</string>
+    <string name="congrats_you_have_completed_the_task_successfully">Congrats!... You have completed the task successfully..</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="submit_rating">Submit Rating</string>
+    <string name="Rate_Finance_Tracker">Rate Finance Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="gamecoin">GameCoin</string>
+    <string name="skip">SKIP</string>
+    <string name="online">Online</string>
+    <string name="gambling">GAMBLING</string>
+    <string name="temporibus_autem_aut_officiis_debitis_aut_rerum_necessitatibus">Temporibus autem aut\nofficiis debitis aut rerum\nnecessitatibus</string>
+    <string name="finance">Finance</string>
+    <string name="tracking">Tracking</string>
+    <string name="excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia">Excepteur sint occaecat\ncupidatat non proident, sunt\nin culpa qui officia</string>
+
+
+</resources>

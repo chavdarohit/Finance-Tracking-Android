@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "911220418181",
+    "project_id": "finance-tracker-via-sms",
+    "storage_bucket": "finance-tracker-via-sms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911220418181:android:bf0123763e78d4c53c2bec",
+        "android_client_info": {
+          "package_name": "com.example.finance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911220418181-72ikh3mj3r4hj3c8i1c87smi3co2rk7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finance",
+            "certificate_hash": "8355b35c5b785de8338b61842b3e3021a1fc4a09"
+          }
+        },
+        {
+          "client_id": "911220418181-dk3tk2pr0pj7mm2fb7nmquc98al5nnsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3vSa_q_wkYLahWqLZBH3V2HOvbqLHcMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911220418181-dk3tk2pr0pj7mm2fb7nmquc98al5nnsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

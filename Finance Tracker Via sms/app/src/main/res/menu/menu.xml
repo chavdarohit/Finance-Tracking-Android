@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Profile"
+            android:icon="@drawable/ic_profile"
+            android:id="@+id/profile"
+            />
+
+        <item
+            android:title="Logout"
+            android:icon="@drawable/ic_logout"
+            android:id="@+id/logout">
+        </item>
+    </group>
+    <item android:title=""
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Support"
+                    android:icon="@drawable/ic_support"
+                    android:id="@+id/support"
+                    />
+                <item
+                    android:title="Share"
+                    android:icon="@drawable/ic_share"
+                    android:id="@+id/share"
+                    />
+                <item
+                    android:title="Rate us"
+                    android:icon="@drawable/ic_rateus"
+                    android:id="@+id/rateus"
+                    />
+                <item
+                    android:title="About Finance Tracker"
+                    android:icon="@drawable/ic_about"
+                    android:id="@+id/aboutft"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>
